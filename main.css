@@ -1,0 +1,108 @@
+
+/*Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*Bodoni Moda*/
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*---------------Header---------------*/
+#header {
+    background-color: #6F4F28;
+    color: #D4AF37;
+    width: 100%;
+    height: 11.5rem;
+    padding-top: 1rem;
+}
+
+#header h1 {
+    font-family: "Bodoni Moda";
+    font-style: italic;
+    font-weight: 300;
+    font-size: 5rem;
+    text-align: center;
+    height: 6rem;
+}
+
+#header p {
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: 200;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/*---------------Categories---------------*/
+#categories {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 1.5rem 0;
+}
+
+.image-container {
+    position: relative;
+    width: 23rem;
+    height: 8rem;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    font-weight: 200;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/*---------------Footer---------------*/
+#footer {
+    background-color: #6F4F28;
+    color: #C98B4A;
+    text-align: center;
+    width: 100%;
+}
+
+#footer h2 {
+    font-family: "Bodoni Moda";
+    font-size: 2.5rem;
+}
+
+#footer p {
+    font-family: "Bodoni Moda";
+    font-size: 1.3rem;
+} 
+
+#footer h6 {
+    padding-top: 2rem;
+    font-weight: 300;
+    font-size: 1rem;
+}
