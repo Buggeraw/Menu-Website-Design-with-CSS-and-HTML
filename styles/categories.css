@@ -154,3 +154,24 @@ a {
     font-weight: 300;
     font-size: 1rem;
 }
+
+/*---------------choice---------------*/
+#choice {
+    
+}
+
+#choice ul {
+    display: flex;
+    justify-content: center;
+    gap:4rem;
+    list-style-type: none;
+}
+
+#choice a {
+    color: #6F4F28;
+    font-size: 1.3rem;
+}
+
+#choice #click {
+    color: #C98B4A;
+}
